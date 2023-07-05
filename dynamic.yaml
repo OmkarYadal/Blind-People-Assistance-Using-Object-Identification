@@ -1,0 +1,25 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: ../datasets/coco128  # dataset root dir
+train: ../MP2/Dynamic Mode/DynamicDataset/images/train  # train images (relative to 'path')
+val: ../MP2/Dynamic Mode/DynamicDataset/images/val  # val images (relative to 'path')
+
+
+# Classes
+names:
+
+  0: bicycle
+  1: bike
+  2: bus
+  3: car
+  4: cow
+  5: dog
+  6: signboard
+  7: trafficlight
+  8: tree
+  9: truck
+  10: person
+  11: auto
+  12: bench
+  13: estinguisher
+  14: train
+  15: zebra crossing

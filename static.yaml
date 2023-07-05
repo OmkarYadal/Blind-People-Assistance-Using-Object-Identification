@@ -1,0 +1,42 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: ../datasets/coco128  # dataset root dir
+train: ../MP2/StaticMode/StaticDataset/images/train  # train images (relative to 'path')
+val: ../MP2/StaticMode/StaticDataset/images/val  # val images (relative to 'path')
+
+# Classes
+names:
+
+  0: person
+  1: bed
+  2: bottle
+  3: vase
+  4: clock
+  5: cup
+  6: sofa
+  7: table
+  8: chair
+  9: door
+  10: fan
+  11: cupboard
+  12: glasses
+  13: umbrella
+  14: cell phone
+  15: stairs
+  16: air conditioner
+  17: bag
+  18: hat
+  19: apple
+  20: pineapple 
+  21: grapes
+  22: laptop
+  23: window
+  24: blender
+  25: hobs
+  26: microwave
+  27: remote
+  28: scissor
+  29: sink
+  30: switch
+  31: tablefan
+  32: lamp
+  33: washingmachine
